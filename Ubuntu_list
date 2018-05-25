@@ -17,3 +17,7 @@ sudo make
 # copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
 sudo cp *.a /usr/lib
 
+json错误解决方法：
+fatal error: json/json.h: No such file or directory #265
+Symlinking /usr/include/jsoncpp/json to /usr/include/json does help.
+
